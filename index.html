@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Evenstar — Maison of Modern Tailoring</title>
+    <meta name="description" content="Evenstar is a Jakarta maison cutting silk, wool and cashmere for women and men. Autumn/Winter 2026 — The After Hours." />
+    <meta name="theme-color" content="#EFEBE4" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Geist:wght@300..600&family=Geist+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preload" as="image" href="/images/hero-couple.webp" />
+  </head>
+  <body class="is-loading">
+    <!-- ───────────── Loader ───────────── -->
+    <div class="loader" aria-hidden="true">
+      <div class="loader__top">
+        <span class="mono">Maison Evenstar</span>
+        <span class="mono">Jakarta — Est. 2019</span>
+      </div>
+      <div class="loader__mark" data-loader-mark>EVENSTAR</div>
+      <div class="loader__bottom">
+        <span class="mono">Collection AW—26</span>
+        <span class="loader__count"><span data-loader-count>000</span></span>
+      </div>
+      <div class="loader__bar"><span data-loader-bar></span></div>
+    </div>
+
+    <!-- ───────────── Cursor ───────────── -->
+    <div class="cursor" aria-hidden="true">
+      <div class="cursor__dot"></div>
+      <div class="cursor__ring"><span class="cursor__label" data-cursor-label>View</span></div>
+    </div>
+
+    <div class="grain" aria-hidden="true"></div>
+
+    <!-- ───────────── Header ───────────── -->
+    <header class="nav" data-nav>
+      <div class="nav__left">
+        <button class="nav__menu" data-menu-toggle aria-expanded="false" aria-controls="menu">
+          <span class="nav__burger" aria-hidden="true"><i></i><i></i></span>
+          <span class="nav__menu-label">Menu</span>
+        </button>
+        <a href="#arrivals" class="nav__link hide-sm" data-filter-link="women">Women</a>
+        <a href="#arrivals" class="nav__link hide-sm" data-filter-link="men">Men</a>
+      </div>
+      <a href="#top" class="nav__logo" aria-label="Evenstar — home">EVENSTAR</a>
+      <div class="nav__right">
+        <a href="#atelier" class="nav__link hide-sm">Atelier</a>
+        <button class="nav__link nav__bag" data-bag aria-label="Shopping bag">
+          Bag <span class="nav__bag-count" data-bag-count>0</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- ───────────── Menu overlay ───────────── -->
+    <nav class="menu" id="menu" aria-label="Main" data-menu>
+      <div class="menu__bg"></div>
+      <div class="menu__inner">
+        <ul class="menu__list">
+          <li><a href="#arrivals" data-menu-link data-img="/images/w-oxblood-gown.webp"><span class="mono">01</span><em>Women</em></a></li>
+          <li><a href="#arrivals" data-menu-link data-img="/images/m-overcoat.webp"><span class="mono">02</span><em>Men</em></a></li>
+          <li><a href="#atelier" data-menu-link data-img="/images/w-slip-dress.webp"><span class="mono">03</span><em>Atelier 3D</em></a></li>
+          <li><a href="#campaign" data-menu-link data-img="/images/campaign-night.webp"><span class="mono">04</span><em>Campaign</em></a></li>
+          <li><a href="#craft" data-menu-link data-img="/images/craft-tailor.webp"><span class="mono">05</span><em>The Craft</em></a></li>
+        </ul>
+        <figure class="menu__preview"><img src="/images/w-oxblood-gown.webp" alt="" data-menu-preview /></figure>
+        <div class="menu__foot">
+          <div>
+            <span class="mono muted">Boutiques</span>
+            <p>Plaza Senayan, Jakarta<br />Jl. Petitenget, Seminyak</p>
+          </div>
+          <div>
+            <span class="mono muted">Client care</span>
+            <p>care@evenstar.id<br />+62 21 5790 2026</p>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main id="top">
+      <!-- ───────────── 00 Hero ───────────── -->
+      <section class="hero" data-hero>
+        <div class="hero__meta">
+          <span class="mono">AW—26</span>
+          <span class="mono hide-sm">Womenswear &amp; Menswear</span>
+          <span class="mono hide-sm">Jakarta / Paris</span>
+          <span class="mono">Scroll <span class="hero__arrow">↓</span></span>
+        </div>
+
+        <h1 class="hero__mark" data-hero-mark aria-label="Evenstar">EVENSTAR</h1>
+
+        <div class="hero__row">
+          <div class="hero__intro" data-hero-intro>
+            <p class="hero__lede">Tailoring for the <em>after hours</em> — silk, wool &amp; cashmere, cut for women and men who no longer dress for approval.</p>
+            <div class="hero__ctas">
+              <a href="#arrivals" class="btn" data-filter-link="women"><span>[</span> Shop Women <span>]</span></a>
+              <a href="#arrivals" class="btn" data-filter-link="men"><span>[</span> Shop Men <span>]</span></a>
+            </div>
+          </div>
+
+          <a href="#arrivals" class="hero-card hero-card--side hero-card--w" data-hero-side data-cursor="Women" data-filter-link="women">
+            <div class="hero-card__media"><img src="/images/hero-woman.webp" alt="Woman in an oversized camel wool coat over an ivory silk slip dress" /></div>
+            <div class="hero-card__cap"><span class="mono">(01)</span><span>The Camel Coat</span></div>
+          </a>
+
+          <div class="hero-card hero__slot">
+            <div class="hero-card__media hero__slot-media" data-hero-slot>
+              <img src="/images/hero-couple.webp" alt="A couple in black satin and an ivory dinner jacket" />
+            </div>
+            <div class="hero-card__cap"><span class="mono">(02)</span><span>Black Satin, Ivory Shawl</span></div>
+          </div>
+
+          <a href="#arrivals" class="hero-card hero-card--side hero-card--m" data-hero-side data-cursor="Men" data-filter-link="men">
+            <div class="hero-card__media"><img src="/images/hero-man.webp" alt="Man in a double-breasted charcoal wool suit and black turtleneck" /></div>
+            <div class="hero-card__cap"><span class="mono">(03)</span><span>The Flannel Suit</span></div>
+          </a>
+        </div>
+
+        <!-- Expanding centre frame (clip-path driven) -->
+        <div class="hero__full" data-hero-full>
+          <img src="/images/hero-couple.webp" alt="A couple in black satin and an ivory dinner jacket" />
+          <div class="hero__full-cap" data-hero-fullcap>
+            <span class="mono">Chapter I</span>
+            <p class="hero__full-title">The After Hours</p>
+            <span class="mono">Autumn / Winter 2026</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ───────────── 01 Manifesto ───────────── -->
+      <section class="manifesto section" id="maison">
+        <div class="section__label"><span class="mono">01</span><span class="mono">Maison</span></div>
+        <p class="manifesto__text" data-manifesto>
+          <span class="manifesto__lead">Evenstar dresses grown-ups.</span> We cut in natural fibres for women and men who have stopped chasing the season — garments built to be worn for a decade, repaired for a lifetime, and noticed only by those who look closely.
+        </p>
+        <dl class="manifesto__facts">
+          <div><dt class="mono muted">Founded</dt><dd>2019, Bandung</dd></div>
+          <div><dt class="mono muted">Artisans</dt><dd>42 in-house</dd></div>
+          <div><dt class="mono muted">Fibres</dt><dd>Natural only</dd></div>
+          <div><dt class="mono muted">Aftercare</dt><dd>Repairs for life</dd></div>
+        </dl>
+      </section>
+
+      <!-- ───────────── 02 New arrivals ───────────── -->
+      <section class="arrivals section" id="arrivals">
+        <div class="arrivals__head">
+          <div class="section__label"><span class="mono">02</span><span class="mono">New Arrivals</span></div>
+          <h2 class="display arrivals__title" data-reveal-title>The <em>(AW—26)</em> Edit</h2>
+          <div class="arrivals__controls">
+            <div class="tabs" role="tablist" aria-label="Filter products">
+              <button class="tab is-active" role="tab" aria-selected="true" data-filter="all">All</button>
+              <button class="tab" role="tab" aria-selected="false" data-filter="women">Women</button>
+              <button class="tab" role="tab" aria-selected="false" data-filter="men">Men</button>
+            </div>
+            <span class="mono muted"><span data-count>08</span> pieces</span>
+          </div>
+        </div>
+
+        <div class="track" data-track data-cursor="Drag">
+          <ul class="track__list" data-track-list><!-- rendered by arrivals.js --></ul>
+        </div>
+        <div class="track__progress" aria-hidden="true"><span data-track-progress></span></div>
+      </section>
+
+      <!-- ───────────── 03 Atelier 3D ───────────── -->
+      <section class="atelier" id="atelier" data-atelier>
+        <div class="atelier__glow" aria-hidden="true"></div>
+        <div class="atelier__ui">
+          <div class="section__label section__label--light"><span class="mono">03</span><span class="mono">Atelier in 3D</span></div>
+          <h2 class="display atelier__title">Every piece,<br /><em>in the round.</em></h2>
+          <p class="atelier__lede">Turn the garment, change the cloth. Each silhouette is cut from our house blocks and rendered with the fabric’s real weight and sheen.</p>
+
+          <div class="atelier__group">
+            <span class="mono muted-light">Silhouette</span>
+            <div class="atelier__pieces" data-pieces role="radiogroup" aria-label="Silhouette"></div>
+          </div>
+
+          <div class="atelier__group">
+            <span class="mono muted-light">Cloth — <span data-fabric-name>Silk Charmeuse</span></span>
+            <div class="atelier__swatches" data-swatches role="radiogroup" aria-label="Cloth"></div>
+          </div>
+
+          <dl class="atelier__spec" data-spec></dl>
+        </div>
+
+        <div class="atelier__stage" data-cursor="Rotate">
+          <canvas class="atelier__canvas" data-atelier-canvas aria-label="Interactive 3D garment viewer"></canvas>
+          <div class="atelier__hint mono"><span class="atelier__hint-line"></span> Drag to turn &amp; ripple cloth</div>
+          <div class="atelier__index mono" data-piece-index>01 / 04</div>
+
+          <!-- Editorial Lookbook Silhouette Card -->
+          <div class="atelier__card" data-atelier-card>
+            <div class="atelier__card-thumb">
+              <img src="/images/w-slip-dress.webp" alt="Bias Slip Dress" data-atelier-img />
+            </div>
+            <div class="atelier__card-body">
+              <span class="mono muted-light" data-atelier-code>W—SL01</span>
+              <strong class="atelier__card-name" data-atelier-name>Bias Slip Dress</strong>
+              <span class="mono atelier__card-notes" data-atelier-notes>18 hrs hand-cut</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ───────────── 04 Campaign ───────────── -->
+      <section class="campaign" id="campaign" data-campaign>
+        <div class="campaign__pin">
+          <div class="campaign__words" aria-hidden="true">
+            <span class="campaign__word" data-campaign-l>After</span>
+            <span class="campaign__word campaign__word--r" data-campaign-r><em>Hours</em></span>
+          </div>
+          <figure class="campaign__frame" data-campaign-frame>
+            <img src="/images/campaign-night.webp" alt="A woman in a black satin coat dress and a man in a black overcoat walking through a hotel lobby at night" data-campaign-img />
+          </figure>
+          <div class="campaign__cap" data-campaign-cap>
+            <div class="section__label section__label--light"><span class="mono">04</span><span class="mono">Campaign</span></div>
+            <p>Shot after midnight in a Jakarta grand hotel. Black satin, double-faced wool and the quiet between two people.</p>
+            <a href="#atelier" class="btn btn--light"><span>[</span> Explore the looks <span>]</span></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ───────────── 05 Index ───────────── -->
+      <section class="index section" id="index" data-index>
+        <div class="section__label"><span class="mono">05</span><span class="mono">Index</span></div>
+        <ul class="index__list">
+          <li><a href="#arrivals" data-filter-link="women" data-index-img="/images/w-oxblood-gown.webp"><span class="index__name">Women</span><span class="mono index__count">(48)</span></a></li>
+          <li><a href="#arrivals" data-filter-link="men" data-index-img="/images/m-overcoat.webp"><span class="index__name">Men</span><span class="mono index__count">(36)</span></a></li>
+          <li><a href="#arrivals" data-index-img="/images/hero-couple.webp"><span class="index__name"><em>Evening</em></span><span class="mono index__count">(14)</span></a></li>
+          <li><a href="#arrivals" data-index-img="/images/w-tailored-suit.webp"><span class="index__name">Tailoring</span><span class="mono index__count">(22)</span></a></li>
+          <li><a href="#arrivals" data-index-img="/images/w-knit-set.webp"><span class="index__name"><em>Knitwear</em></span><span class="mono index__count">(17)</span></a></li>
+          <li><a href="#arrivals" data-index-img="/images/m-leather-coat.webp"><span class="index__name">Outerwear</span><span class="mono index__count">(19)</span></a></li>
+        </ul>
+        <figure class="index__float" aria-hidden="true" data-index-float><img src="/images/w-oxblood-gown.webp" alt="" /></figure>
+      </section>
+
+      <!-- ───────────── 06 Craft ───────────── -->
+      <section class="craft section" id="craft">
+        <div class="craft__media">
+          <div class="craft__img" data-parallax-wrap>
+            <img src="/images/craft-tailor.webp" alt="A tailor chalk-marking a pattern on charcoal wool" data-parallax />
+          </div>
+          <span class="mono craft__img-cap">Atelier, Bandung — Cutting room</span>
+        </div>
+        <div class="craft__body">
+          <div class="section__label"><span class="mono">06</span><span class="mono">The Craft</span></div>
+          <h2 class="display craft__title" data-reveal-title>Slow hands,<br /><em>long lives.</em></h2>
+          <ol class="craft__steps">
+            <li data-reveal>
+              <span class="mono">I.</span>
+              <div><h3>The pattern</h3><p>Every block is drafted by hand, then refined over three fittings on real bodies — not mannequins.</p></div>
+            </li>
+            <li data-reveal>
+              <span class="mono">II.</span>
+              <div><h3>The cloth</h3><p>Wool from Biella, silk from Como and Garut, cashmere from Inner Mongolia. Traceable to the mill.</p></div>
+            </li>
+            <li data-reveal>
+              <span class="mono">III.</span>
+              <div><h3>The finish</h3><p>Hand-padded lapels, French seams, horn buttons sewn with a shank. Around 31 hours per coat.</p></div>
+            </li>
+            <li data-reveal>
+              <span class="mono">IV.</span>
+              <div><h3>The afterlife</h3><p>Complimentary alterations and repairs for as long as you wear it. Bring it back; we keep the pattern.</p></div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- ───────────── Marquee ───────────── -->
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track" data-marquee>
+          <span>Complimentary alterations</span><i>✦</i><span>Delivery across Indonesia</span><i>✦</i><span>Repairs for life</span><i>✦</i><span>Private appointments</span><i>✦</i>
+          <span>Complimentary alterations</span><i>✦</i><span>Delivery across Indonesia</span><i>✦</i><span>Repairs for life</span><i>✦</i><span>Private appointments</span><i>✦</i>
+        </div>
+      </div>
+    </main>
+
+    <!-- ───────────── Footer ───────────── -->
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="footer__news">
+          <h2 class="display footer__title">The private list</h2>
+          <p class="muted">First access to new chapters, atelier visits and trunk shows. Four letters a year, never more.</p>
+          <form class="field" data-newsletter>
+            <label for="email" class="sr-only">Email address</label>
+            <input id="email" type="email" required placeholder="Your email address" autocomplete="email" />
+            <button type="submit" class="btn"><span>[</span> Subscribe <span>]</span></button>
+          </form>
+          <p class="mono field__msg" data-newsletter-msg role="status"></p>
+        </div>
+        <div class="footer__cols">
+          <div>
+            <span class="mono muted">Shop</span>
+            <a href="#arrivals" data-filter-link="women">Women</a>
+            <a href="#arrivals" data-filter-link="men">Men</a>
+            <a href="#atelier">Atelier 3D</a>
+            <a href="#index">Gift cards</a>
+          </div>
+          <div>
+            <span class="mono muted">Maison</span>
+            <a href="#maison">About</a>
+            <a href="#craft">The Craft</a>
+            <a href="#campaign">Campaign</a>
+            <a href="#craft">Aftercare</a>
+          </div>
+          <div>
+            <span class="mono muted">Boutiques</span>
+            <p>Plaza Senayan, Lt. 2<br />Jakarta 10270</p>
+            <p>Jl. Petitenget 18<br />Seminyak, Bali</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer__mark" data-footer-mark aria-hidden="true">EVENSTAR</div>
+      <div class="footer__base mono">
+        <span>© 2026 Evenstar Maison</span>
+        <span class="hide-sm">Instagram — Pinterest — Journal</span>
+        <a href="#top" data-to-top>Back to top ↑</a>
+      </div>
+    </footer>
+
+    <!-- Toast -->
+    <div class="toast mono" role="status" aria-live="polite" data-toast></div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
