@@ -7,6 +7,10 @@ export const products = [
   { id: 'm03', gender: 'men', name: 'Knitted Polo & Pleat', fabric: 'Cashmere / wool twill', price: 5750000, img: '/images/m-knit-polo.webp', tag: 'New', sizes: ['S', 'M', 'L', 'XL'], alt: 'Ivory cashmere knitted polo with pleated taupe trousers' },
   { id: 'w04', gender: 'women', name: 'Rib Cardigan & Pleat Skirt', fabric: 'Cashmere — Inner Mongolia', price: 6400000, img: '/images/w-knit-set.webp', tag: 'Knitwear', sizes: ['XS', 'S', 'M', 'L'], alt: 'Oatmeal ribbed cashmere cardigan and ivory pleated skirt' },
   { id: 'm04', gender: 'men', name: 'Unstructured Linen Suit', fabric: 'Linen-silk — Irish mill', price: 8200000, img: '/images/m-linen-suit.webp', tag: 'Tailoring', sizes: ['46', '48', '50', '52'], alt: 'Sand linen-silk unstructured suit' },
+  { id: 'w05', gender: 'women', name: 'Atelier Silk Gown', fabric: 'Obsidian silk charmeuse', price: 8400000, img: '/images/w-slip-dress-noir.webp', tag: 'Atelier', sizes: ['XS', 'S', 'M', 'L'], alt: 'Atelier obsidian noir silk slip gown' },
+  { id: 'm05', gender: 'men', name: 'Vicuña Cashmere Coat', fabric: 'Camel vicuña cashmere', price: 16800000, img: '/images/m-overcoat-camel.webp', tag: 'Atelier', sizes: ['46', '48', '50', '52'], alt: 'Atelier camel vicuña double-faced overcoat' },
+  { id: 'w06', gender: 'women', name: 'Peak-Lapel Dinner Tuxedo', fabric: 'Ecru wool & silk faille', price: 14200000, img: '/images/w-tailored-suit-ivory.webp', tag: 'Bespoke', sizes: ['34', '36', '38', '40'], alt: 'Atelier ivory dinner tuxedo suit' },
+  { id: 'm06', gender: 'men', name: 'Tropical Flax-Silk Suit', fabric: 'Midnight navy flax-silk', price: 12600000, img: '/images/m-linen-suit-navy.webp', tag: 'Bespoke', sizes: ['46', '48', '50', '52'], alt: 'Atelier midnight navy linen-silk tailored suit' },
 ];
 
 export const formatIDR = (n) => 'IDR ' + n.toLocaleString('id-ID');

@@ -28,7 +28,7 @@ export function initArrivals(containerEl) {
     activeFilter = filter;
     const filtered = filter === 'all' ? products : products.filter(p => p.gender === filter);
 
-    if (countEl) countEl.textContent = `0${filtered.length}`;
+    if (countEl) countEl.textContent = filtered.length.toString().padStart(2, '0');
 
     listEl.innerHTML = filtered.map(p => `
       <li class="product" data-gender="${p.gender}" data-id="${p.id}">
