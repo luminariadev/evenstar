@@ -4,7 +4,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { initCursor } from './ui/cursor.js';
 import { initMenu } from './ui/menu.js';
 import { initArrivals } from './ui/arrivals.js';
-import { initAtelierScene } from './atelier/scene.js';
+import { initAtelierStudio } from './atelier/atelierStudio.js';
 import { initScrollAnimations } from './animations/scroll.js';
 
 function runLoader(onComplete) {
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const atelierEl = document.querySelector('[data-atelier]');
   if (atelierEl) {
-    initAtelierScene(atelierEl);
+    initAtelierStudio(atelierEl);
   }
 
   // Initialize scroll engine and pinning immediately so all measurements

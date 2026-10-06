@@ -64,7 +64,7 @@
         <ul class="menu__list">
           <li><a href="#arrivals" data-menu-link data-img="/images/w-oxblood-gown.webp"><span class="mono">01</span><em>Women</em></a></li>
           <li><a href="#arrivals" data-menu-link data-img="/images/m-overcoat.webp"><span class="mono">02</span><em>Men</em></a></li>
-          <li><a href="#atelier" data-menu-link data-img="/images/w-slip-dress.webp"><span class="mono">03</span><em>Atelier 3D</em></a></li>
+          <li><a href="#atelier" data-menu-link data-img="/images/w-slip-dress.webp"><span class="mono">03</span><em>The Atelier</em></a></li>
           <li><a href="#campaign" data-menu-link data-img="/images/campaign-night.webp"><span class="mono">04</span><em>Campaign</em></a></li>
           <li><a href="#craft" data-menu-link data-img="/images/craft-tailor.webp"><span class="mono">05</span><em>The Craft</em></a></li>
         </ul>
@@ -167,41 +167,61 @@
         <div class="track__progress" aria-hidden="true"><span data-track-progress></span></div>
       </section>
 
-      <!-- ───────────── 03 Atelier 3D ───────────── -->
+      <!-- ───────────── 03 The Atelier ───────────── -->
       <section class="atelier" id="atelier" data-atelier>
         <div class="atelier__glow" aria-hidden="true"></div>
         <div class="atelier__ui">
-          <div class="section__label section__label--light"><span class="mono">03</span><span class="mono">Atelier in 3D</span></div>
-          <h2 class="display atelier__title">Every piece,<br /><em>in the round.</em></h2>
-          <p class="atelier__lede">Turn the garment, change the cloth. Each silhouette is cut from our house blocks and rendered with the fabric’s real weight and sheen.</p>
+          <div class="section__label section__label--light"><span class="mono">03</span><span class="mono">The Atelier</span></div>
+          <h2 class="display atelier__title">Every silhouette,<br /><em>examined closely.</em></h2>
+          <p class="atelier__lede">Move your cursor over the silhouette to magnify the weave and hand-stitching with the macro loupe, or select a pinpoint to uncover artisan notes.</p>
 
           <div class="atelier__group">
-            <span class="mono muted-light">Silhouette</span>
+            <span class="mono muted-light">House Silhouette</span>
             <div class="atelier__pieces" data-pieces role="radiogroup" aria-label="Silhouette"></div>
           </div>
 
           <div class="atelier__group">
-            <span class="mono muted-light">Cloth — <span data-fabric-name>Silk Charmeuse</span></span>
-            <div class="atelier__swatches" data-swatches role="radiogroup" aria-label="Cloth"></div>
+            <span class="mono muted-light">Cloth Tone — <span data-fabric-name>Champagne Ivory</span></span>
+            <div class="atelier__swatches" data-swatches role="radiogroup" aria-label="Cloth tone"></div>
           </div>
 
           <dl class="atelier__spec" data-spec></dl>
+
+          <div class="atelier__actions">
+            <a href="#arrivals" class="btn btn--light" data-atelier-shop><span>[</span> View in Collection <span>]</span></a>
+            <button class="btn btn--ghost hide-desktop" type="button" data-toggle-loupe><span>[</span> Inspect Macro <span>]</span></button>
+          </div>
         </div>
 
-        <div class="atelier__stage" data-cursor="Rotate">
-          <canvas class="atelier__canvas" data-atelier-canvas aria-label="Interactive 3D garment viewer"></canvas>
-          <div class="atelier__hint mono"><span class="atelier__hint-line"></span> Drag to turn &amp; ripple cloth</div>
-          <div class="atelier__index mono" data-piece-index>01 / 04</div>
+        <div class="atelier__stage" data-atelier-stage>
+          <div class="atelier__stage-media" data-atelier-media data-cursor="Inspect">
+            <img src="/images/w-slip-dress.webp" alt="Bias Silk Slip Dress" class="atelier__stage-img" data-stage-img />
+            
+            <!-- Interactive Tailoring Hotspots -->
+            <div class="atelier__hotspots" data-hotspots></div>
 
-          <!-- Editorial Lookbook Silhouette Card -->
+            <!-- Macro Fabric Zoom Loupe -->
+            <div class="atelier__loupe" data-atelier-loupe aria-hidden="true">
+              <img src="/images/w-slip-dress.webp" alt="" class="atelier__loupe-img" data-loupe-img />
+              <div class="atelier__loupe-reticle"></div>
+              <span class="atelier__loupe-badge mono">2.4× MACRO</span>
+            </div>
+          </div>
+
+          <div class="atelier__stage-bar">
+            <span class="mono muted-light"><span class="atelier__hint-dot"></span> Hover photo to magnify fabric weave</span>
+            <div class="atelier__index mono" data-piece-index>01 / 04</div>
+          </div>
+
+          <!-- Active Silhouette Floating Card -->
           <div class="atelier__card" data-atelier-card>
             <div class="atelier__card-thumb">
-              <img src="/images/w-slip-dress.webp" alt="Bias Slip Dress" data-atelier-img />
+              <img src="/images/w-slip-dress.webp" alt="Bias Slip Dress" data-card-img />
             </div>
             <div class="atelier__card-body">
-              <span class="mono muted-light" data-atelier-code>W—SL01</span>
-              <strong class="atelier__card-name" data-atelier-name>Bias Slip Dress</strong>
-              <span class="mono atelier__card-notes" data-atelier-notes>18 hrs hand-cut</span>
+              <span class="mono muted-light" data-card-code>W—SL01</span>
+              <strong class="atelier__card-name" data-card-name>Bias Silk Slip Dress</strong>
+              <span class="mono atelier__card-notes" data-card-notes>18 hrs hand-cut • Como, Italy</span>
             </div>
           </div>
         </div>
