@@ -11,12 +11,32 @@ export const SILHOUETTES = [
     cutTime: '18 hrs',
     price: 'IDR 8,400,000',
     description: 'Cut on a true 45° bias from heavy mulberry silk charmeuse. Drapes naturally over curves without clinging or restriction.',
-    image: '/images/w-slip-dress.webp',
     filterLink: 'women',
     colors: [
-      { name: 'Champagne Ivory', hex: '#ede6d8', code: '01' },
-      { name: 'Noir Satin', hex: '#141414', code: '02' },
-      { name: 'Oxblood Red', hex: '#4a151b', code: '03' },
+      {
+        name: 'Champagne Ivory',
+        hex: '#ede6d8',
+        code: '01',
+        image: '/images/w-slip-dress-champagne.webp',
+        specNote: 'Mulberry silk charmeuse • 100% Grade 6A silk',
+        availability: 'In Stock • Atelier Jakarta',
+      },
+      {
+        name: 'Noir Satin',
+        hex: '#141414',
+        code: '02',
+        image: '/images/w-slip-dress-noir.webp',
+        specNote: 'Obsidian silk charmeuse • Hand-dipped yarn',
+        availability: 'Made to Order • 14 days',
+      },
+      {
+        name: 'Oxblood Red',
+        hex: '#4a151b',
+        code: '03',
+        image: '/images/w-slip-dress-oxblood.webp',
+        specNote: 'Garut natural madder root dyed silk charmeuse',
+        availability: 'Limited Edition • 8 pieces',
+      },
     ],
     hotspots: [
       { x: 50, y: 32, label: 'Bias Grainline', desc: 'True 45° cut allows pure silk to float over contours rather than sticking.' },
@@ -34,12 +54,32 @@ export const SILHOUETTES = [
     cutTime: '36 hrs',
     price: 'IDR 16,800,000',
     description: 'Unlined double-faced virgin wool and Mongolian cashmere. Split at the perimeter and turned inward with invisible blind stitching.',
-    image: '/images/m-overcoat.webp',
     filterLink: 'men',
     colors: [
-      { name: 'Charcoal Noir', hex: '#1c1b1a', code: '01' },
-      { name: 'Camel Vicuña', hex: '#9e724c', code: '02' },
-      { name: 'Deep Espresso', hex: '#2b211a', code: '03' },
+      {
+        name: 'Stone Grey',
+        hex: '#969490',
+        code: '01',
+        image: '/images/m-overcoat-grey.webp',
+        specNote: 'Natural un-dyed Mongolian cashmere & virgin wool',
+        availability: 'In Stock • Plaza Senayan',
+      },
+      {
+        name: 'Camel Vicuña',
+        hex: '#9e724c',
+        code: '02',
+        image: '/images/m-overcoat-camel.webp',
+        specNote: 'Baby camelhair & Mongolian cashmere blend',
+        availability: 'Made to Order • 21 days',
+      },
+      {
+        name: 'Charcoal Noir',
+        hex: '#1c1b1a',
+        code: '03',
+        image: '/images/m-overcoat-noir.webp',
+        specNote: 'Double-faced obsidian wool • Hand blind-stitched',
+        availability: 'In Stock • Atelier Jakarta',
+      },
     ],
     hotspots: [
       { x: 44, y: 26, label: 'Seamless Raglan', desc: 'Continuous shoulder line cut to layer effortlessly over knitwear without boxiness.' },
@@ -57,12 +97,32 @@ export const SILHOUETTES = [
     cutTime: '42 hrs',
     price: 'IDR 14,200,000',
     description: 'Architectural silhouette cut from Super 160s English wool with floating horsehair canvas and pure silk grosgrain lapels.',
-    image: '/images/w-tailored-suit.webp',
     filterLink: 'women',
     colors: [
-      { name: 'Midnight Black', hex: '#111111', code: '01' },
-      { name: 'Ivory Dinner', hex: '#eae5dc', code: '02' },
-      { name: 'Forest Noir', hex: '#18241c', code: '03' },
+      {
+        name: 'Midnight Black',
+        hex: '#111111',
+        code: '01',
+        image: '/images/w-tailored-suit-black.webp',
+        specNote: 'Super 160s English wool • Pure silk grosgrain lapel',
+        availability: 'In Stock • Atelier Jakarta',
+      },
+      {
+        name: 'Ivory Dinner',
+        hex: '#eae5dc',
+        code: '02',
+        image: '/images/w-tailored-suit-ivory.webp',
+        specNote: 'Pure ecru dinner wool • Silk faille lapel facing',
+        availability: 'Made to Order • 18 days',
+      },
+      {
+        name: 'Forest Noir',
+        hex: '#18241c',
+        code: '03',
+        image: '/images/w-tailored-suit-forest.webp',
+        specNote: 'Bottle green worsted wool • Hand silk buttonhole',
+        availability: 'Limited Edition • 12 pieces',
+      },
     ],
     hotspots: [
       { x: 44, y: 28, label: 'Silk Grosgrain Lapel', desc: 'Heavy ribbed silk woven on historic shuttle looms in Lyon.' },
@@ -80,12 +140,32 @@ export const SILHOUETTES = [
     cutTime: '24 hrs',
     price: 'IDR 12,600,000',
     description: 'Deconstructed shoulder and breathable flax-silk blend. Soft Italian silhouette crafted for tropical evening gatherings.',
-    image: '/images/m-linen-suit.webp',
     filterLink: 'men',
     colors: [
-      { name: 'Natural Sand', hex: '#c8bcab', code: '01' },
-      { name: 'Warm Charcoal', hex: '#262422', code: '02' },
-      { name: 'Navy Midnight', hex: '#171c26', code: '03' },
+      {
+        name: 'Natural Sand',
+        hex: '#c8bcab',
+        code: '01',
+        image: '/images/m-linen-suit-sand.webp',
+        specNote: 'Irish wet-spun flax & Como raw silk blend',
+        availability: 'In Stock • Seminyak',
+      },
+      {
+        name: 'Midnight Navy',
+        hex: '#171c26',
+        code: '02',
+        image: '/images/m-linen-suit-navy.webp',
+        specNote: 'Navy-dyed flax twill • Breathable open weave',
+        availability: 'Made to Order • 16 days',
+      },
+      {
+        name: 'Warm Espresso',
+        hex: '#2b211a',
+        code: '03',
+        image: '/images/m-linen-suit-charcoal.webp',
+        specNote: 'Espresso roasted flax blend • Unlined softness',
+        availability: 'Made to Order • 16 days',
+      },
     ],
     hotspots: [
       { x: 42, y: 25, label: 'Spalla Camicia', desc: 'Shirt-style shoulder sleevehead with zero padding for natural drape.' },
@@ -123,8 +203,50 @@ export function initAtelierStudio(containerEl) {
   let currentIndex = 0;
   let currentColorIndex = 0;
   let isLoupeActive = false;
+  let isSwitchingImage = false;
   const zoomFactor = 2.4;
   const loupeSize = 170;
+
+  // Preload all colorway images in the background so switching is instantaneous
+  SILHOUETTES.forEach((s) => {
+    s.colors.forEach((c) => {
+      const img = new Image();
+      img.src = c.image;
+    });
+  });
+
+  // Smooth Crossfade Image Switcher
+  function switchImage(newSrc) {
+    if (!newSrc || !stageImg || stageImg.getAttribute('src') === newSrc) return;
+    if (isSwitchingImage) {
+      stageImg.src = newSrc;
+      if (loupeImg) loupeImg.src = newSrc;
+      if (cardImg) cardImg.src = newSrc;
+      return;
+    }
+
+    isSwitchingImage = true;
+    gsap.to(stageImg, {
+      opacity: 0.15,
+      scale: 0.985,
+      duration: 0.22,
+      ease: 'power2.in',
+      onComplete: () => {
+        stageImg.src = newSrc;
+        if (loupeImg) loupeImg.src = newSrc;
+        if (cardImg) cardImg.src = newSrc;
+        gsap.to(stageImg, {
+          opacity: 1,
+          scale: 1,
+          duration: 0.38,
+          ease: 'power2.out',
+          onComplete: () => {
+            isSwitchingImage = false;
+          },
+        });
+      },
+    });
+  }
 
   // Render Silhouettes Selector Buttons
   function renderSilhouettes() {
@@ -152,29 +274,46 @@ export function initAtelierStudio(containerEl) {
       <button class="swatch ${idx === currentColorIndex ? 'is-active' : ''}" data-color-idx="${idx}" style="background-color: ${c.hex};" title="${c.name}" aria-label="${c.name}"></button>
     `).join('');
 
+    const activeColor = garment.colors[currentColorIndex] || garment.colors[0];
     if (fabricNameEl) {
-      fabricNameEl.textContent = garment.colors[currentColorIndex]?.name || garment.colors[0].name;
+      fabricNameEl.textContent = activeColor.name;
     }
 
     swatchesEl.querySelectorAll('.swatch').forEach((btn) => {
       btn.addEventListener('click', () => {
         const cIdx = parseInt(btn.dataset.colorIdx, 10);
+        if (cIdx === currentColorIndex) return;
         currentColorIndex = cIdx;
         swatchesEl.querySelectorAll('.swatch').forEach((s, i) => s.classList.toggle('is-active', i === cIdx));
-        if (fabricNameEl) fabricNameEl.textContent = garment.colors[cIdx].name;
-        // Subtle haptic ripple
-        gsap.fromTo(stageImg, { filter: 'brightness(1.15)' }, { filter: 'brightness(1)', duration: 0.4 });
+        
+        const c = garment.colors[cIdx];
+        if (fabricNameEl) {
+          fabricNameEl.textContent = c.name;
+          gsap.fromTo(fabricNameEl, { opacity: 0.4, x: -4 }, { opacity: 1, x: 0, duration: 0.3 });
+        }
+
+        // Live visual switch of the garment photo
+        switchImage(c.image);
+
+        // Update specs & floating card
+        renderSpecs(garment, c);
+        if (cardNotes) {
+          cardNotes.textContent = `${c.name} • ${c.availability}`;
+        }
       });
     });
   }
 
   // Render Specs
-  function renderSpecs(garment) {
+  function renderSpecs(garment, activeColor) {
     if (!specEl) return;
+    const c = activeColor || garment.colors[currentColorIndex] || garment.colors[0];
     specEl.innerHTML = `
       <div><dt class="mono muted-light">Mill</dt><dd>${garment.mill}</dd></div>
       <div><dt class="mono muted-light">Weight</dt><dd>${garment.weight}</dd></div>
       <div><dt class="mono muted-light">Artisan Time</dt><dd>${garment.cutTime}</dd></div>
+      <div class="atelier__spec-wide"><dt class="mono muted-light">Cloth Composition</dt><dd class="mono-body">${c.specNote}</dd></div>
+      <div><dt class="mono muted-light">Availability</dt><dd class="mono-body">${c.availability}</dd></div>
     `;
   }
 
@@ -211,6 +350,7 @@ export function initAtelierStudio(containerEl) {
     currentIndex = idx;
     currentColorIndex = 0;
     const garment = SILHOUETTES[idx];
+    const initialColor = garment.colors[0];
 
     // Update active button state
     piecesEl?.querySelectorAll('.piece-btn').forEach((b, i) => {
@@ -227,33 +367,16 @@ export function initAtelierStudio(containerEl) {
     }
 
     // Update floating card
-    if (cardImg) cardImg.src = garment.image;
+    if (cardImg) cardImg.src = initialColor.image;
     if (cardCode) cardCode.textContent = garment.code;
     if (cardName) cardName.textContent = garment.name;
-    if (cardNotes) cardNotes.textContent = `${garment.cutTime} hand-cut • ${garment.mill}`;
+    if (cardNotes) cardNotes.textContent = `${initialColor.name} • ${initialColor.availability}`;
 
-    // Smooth image transition
-    if (stageImg && loupeImg) {
-      gsap.to(stageImg, {
-        opacity: 0.3,
-        scale: 0.98,
-        duration: 0.25,
-        ease: 'power2.in',
-        onComplete: () => {
-          stageImg.src = garment.image;
-          loupeImg.src = garment.image;
-          gsap.to(stageImg, {
-            opacity: 1,
-            scale: 1,
-            duration: 0.45,
-            ease: 'power2.out',
-          });
-        },
-      });
-    }
+    // Switch photo smoothly
+    switchImage(initialColor.image);
 
     renderSwatches(garment);
-    renderSpecs(garment);
+    renderSpecs(garment, initialColor);
     renderHotspots(garment);
 
     // Subtle card animation

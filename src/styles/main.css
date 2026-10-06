@@ -627,8 +627,8 @@ body.menu-open {
 .atelier__spec {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 14px;
-  margin-top: 32px;
+  gap: 16px 14px;
+  margin-top: 28px;
   padding-top: 16px;
   border-top: 1px solid var(--line-light);
 }
@@ -638,9 +638,18 @@ body.menu-open {
 }
 .atelier__spec dd {
   font-family: var(--f-display);
-  font-size: 17px;
+  font-size: 16px;
   margin-top: 4px;
   color: var(--paper);
+}
+.atelier__spec .atelier__spec-wide {
+  grid-column: span 2;
+}
+.atelier__spec dd.mono-body {
+  font-family: var(--f-mono);
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  color: var(--paper-2);
 }
 
 .atelier__actions {
