@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  evenstar:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: evenstar-web
+    restart: unless-stopped
+    ports:
+      - "3000:80"
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q --spider http://localhost || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
