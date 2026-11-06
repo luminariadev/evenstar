@@ -6,9 +6,14 @@
 [![Three.js](https://img.shields.io/badge/Three.js-0.186-black?logo=three.js&logoColor=white)](https://threejs.org/)
 [![GSAP](https://img.shields.io/badge/GSAP-3.15-88CE02?logo=greensock&logoColor=white)](https://greensock.com/)
 [![Lenis](https://img.shields.io/badge/Lenis-Smooth_Scroll-FF5C00)](https://lenis.darkroom.engineering/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-arwen--evenstar.vercel.app-black?logo=vercel&logoColor=white)](https://arwen-evenstar.vercel.app/)
 [![Docker](https://img.shields.io/badge/Docker-Enabled-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 
 **Evenstar** adalah platform web luxury fashion & modern tailoring atelier interaktif untuk busana pria dan wanita. Dibangun dengan filosofi *quiet luxury*, tipografi editorial haute couture, dan animasi scrolling sinematik berbasis micro-interactions presisi tinggi.
+
+🔗 **Production Live Atelier:** [https://arwen-evenstar.vercel.app](https://arwen-evenstar.vercel.app)
+
+> 💡 **Pure Client-Side 3D Architecture:** Evenstar dirancang secara mandiri sebagai *high-fidelity client-side 3D experience* berbasis Three.js, WebGL PBR shaders, dan GSAP tanpa memerlukan backend server database, sehingga seluruh rendering busana dan interaktivitas berjalan 100% mulus di memori browser pengguna.
 
 ---
 
